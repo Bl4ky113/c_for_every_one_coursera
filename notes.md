@@ -28,3 +28,7 @@ It's a way to create a constant value, such like PI, we just define the variable
 the compiler will fill the constant value on each place that we used that name.
 
 Saving us memory.
+
+## stdio.h
+
+Standard input output library let us do printf and scanf
