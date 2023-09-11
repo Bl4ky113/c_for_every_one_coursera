@@ -65,3 +65,90 @@ Saving us memory.
 ## stdio.h
 
 Standard input output library let us do printf and scanf
+
+## Primary Expresion Operators
+
+- () function call
+- [] indexing
+- foo++ increment
+- foo-- decrement
+
+## Unary Operators
+
+- * star
+- & address
+- + unary plus
+- - unary minus
+- ! logical negation
+- ++foo prefix autoincrement
+- --foo prefix autodecrement
+- (typescast)
+- sizeof it's an expresion
+
+## Binary Operators
+
+- * multiplication
+- / division
+- % module
+- + addition
+- - subtraction
+- "\>" "\>=" greater (equal) than  
+- "\<\>" "\<=\>" less (equal) than 
+- == equal
+- != not equal
+- & bit wise and
+- ^ bit wise operation
+- | bit shift
+- && logical and 
+- || logical or
+
+## Ternary Operator
+
+short hand for if
+
+condition ? do_code : else_code
+
+## Assignment Operators
+
+- = asign
+- += plus assign
+- -= minus assign
+- *= multiply assign
+- /= divide assign
+- %= module assign
+
+## C Types
+
+- char: 
+a text character. Generally a ASCII character which is stored as an number internally, 
+so it can be used as such. We can declare one with single quotes or its ascii value.
+
+Little remainder that there's more characters than the alpabet, like \0, \n, \r, \t
+and others.
+
+It's char formating value is %c
+
+- int: 
+integers. Generaly stored in 4bytes.
+Can be modified with long and short to modify its size.
+
+unsigned is used when we are not using negative values. 
+
+It's formating value can change if it's long, short or it could even be represented as a char with %c.
+But generaly is %d
+
+- double, float: 
+numbers with . notation. Supports cientific notation.
+When writing a constant it's important to always include the . notation.
+Otherwise C will think that that's an integer.
+
+There could be some imprecision with adding large and small numbers. So we might need to acount for them 
+in the long term or if needed.
+
+There's a lot of formating values like %e or %E for cientific or exponent notation
+%f for general float, %lf for long floats
+%g or %G chooses from %e or %f which has the shortest representation
+
+can be modified by:
+- unsigned (float, int): skip the negative bit and use it for more storage memory
+- long (float, int, double): Increses the storage of the variable type. You can check it with sizeof
