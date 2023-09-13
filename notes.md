@@ -6,6 +6,7 @@ Start: 08/22/2023
 
 Sessions:
 - 08/22/2023
+- 09/13/2023
 
 ## History of C
 
@@ -152,3 +153,29 @@ There's a lot of formating values like %e or %E for cientific or exponent notati
 can be modified by:
 - unsigned (float, int): skip the negative bit and use it for more storage memory
 - long (float, int, double): Increses the storage of the variable type. You can check it with sizeof
+
+## If, else if and else
+
+The general usage from the C based languages
+
+## while 
+
+The general usage from the C based languages
+
+## while get char
+
+with stdio.h we get the getchar() function, which is like scanf but only scans 1 char at the time.
+It can be used to check the contents of a file by using:
+
+./script.out > FILE
+
+Sending the FILE to the script
+It just returns the value of the char. Is ASCII, int or whatever you need
+
+## for loop
+
+the general for loop syntax on C based languages
+
+## switch
+
+You can't even guess
