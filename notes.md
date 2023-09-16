@@ -7,6 +7,7 @@ Start: 08/22/2023
 Sessions:
 - 08/22/2023
 - 09/13/2023
+- 09/16/2023
 
 ## History of C
 
@@ -179,3 +180,28 @@ the general for loop syntax on C based languages
 ## switch
 
 You can't even guess
+
+## Functions in C
+
+In C the syntax is generaly fine but there are some tricks.
+
+First, the structure of a function is
+
+returnType name (arguments)
+
+from there it could change. Generaly if it stops, with a ;, there it's called signature, 
+its common use is in header files. Or what you have to make to use and deploy a
+function package in C.
+This could also be used in the main code, so we don't have to import or try to define the 
+function everywhere that we need it. Doing this is called function prototype.
+
+If you give the function some code to execute, just add {  } and the code inside.
+The scope of the function won't affect the values of the parameters passed to it.
+Just be careful to add the correct return type of the function in the function itself.
+But there's some room to experiment since, for example, if we returned internaly a 
+int value but the function said that it was goind to return a float or double value 
+C will convert the int function to the value defined to return.
+Altough i don't know what would happen if I try to return a string in a float or double 
+function.
+
+You can documendate them just like a JSDoc comment.
