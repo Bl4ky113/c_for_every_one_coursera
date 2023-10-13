@@ -8,6 +8,8 @@ Sessions:
 - 08/22/2023
 - 09/13/2023
 - 09/16/2023
+- 09/28/2023
+- 10/11/2023 Fuck. This sucks
 
 ## History of C
 
@@ -205,3 +207,52 @@ Altough i don't know what would happen if I try to return a string in a float or
 function.
 
 You can documendate them just like a JSDoc comment.
+
+## Simple Arrays
+
+Simple arrays a just a list of elements which could be initialized with a given length or list of values.
+Just like GOlang. 
+
+Decalring a variable, we can make it an simple array by giving them a bracket next to it's type.
+
+type[size] foo;
+
+The size couln't be explicit but implicit by passing a list of values, so the compiler can set the size of the array.
+
+If we have values to initialize we can use them like this:
+
+int[3] foo = {2, 3, 5};
+
+In order to access the values we use the variable and backets with it's position.
+
+foo[1] -> 3;
+
+If we don't know, some how, the size of an array we can checkit with sizeof(array)
+
+## Pointers
+
+Pointers are the name of the address in the RAM where the data, variables and stuff is alocated. 
+Generaly with primitive and simple data types, it's just the pointer then the data itself.
+
+But in Simple arrays, there's the pointer of the array, then the size of the datatype times the size of the 
+array.
+
+To get the pointer or address of an pointer we use in a variable, before it's name, the & operator.
+We have to store it in a variable which starts with the * operator, which would be our real real pointer.
+
+So whenever we will use the \*variable we would be using the value stored in that pointer and not anything else.
+
+You can use pointers, reference and address in the code as variables, 
+int \*foo ; int \*foo = &bar
+
+variable types
+int* int&
+
+or parameters / arguments
+function foo (int \*foo2) {}
+foo(&bar)
+
+This last one could be used to change the values of the bar variable inside the foo function by chaging the value that the pointer
+is referencing to. 
+This is usefull to change the values of an array by the array data's references.
+
