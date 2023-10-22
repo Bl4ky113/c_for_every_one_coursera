@@ -10,6 +10,7 @@ Sessions:
 - 09/16/2023
 - 09/28/2023
 - 10/11/2023 Fuck. This sucks
+- 10/22/2023
 
 ## History of C
 
@@ -256,3 +257,10 @@ This last one could be used to change the values of the bar variable inside the 
 is referencing to. 
 This is usefull to change the values of an array by the array data's references.
 
+## F - Stuff
+
+The F-Stuff are functions, and general stuff in order to use files.
+There's stuff for opening, reading, scanning, writing and checking the state of the file with stuff like see 
+if it reached the EOF and stuff.
+
+These are divided between libc, stdlib and stdio.
