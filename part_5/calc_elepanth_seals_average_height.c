@@ -44,7 +44,7 @@ int main (void) {
 	}
 
 	// Calculate the height average of the Elephants
-	heights_average = heights_sum / (number_elephants + 0.0); // + 0.0 to force double division
+	heights_average = (double) heights_sum / number_elephants; // + 0.0 to force double division
 
 	// Print the Result
 	printf("Elephant Seals Average Height:\t%.2lf", heights_average);
