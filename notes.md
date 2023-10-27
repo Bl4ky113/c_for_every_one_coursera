@@ -3,6 +3,7 @@
 ## By Ira Pohi from the University of California
 
 Start: 08/22/2023
+End: 10/27/2023
 
 Sessions:
 - 08/22/2023
@@ -11,6 +12,7 @@ Sessions:
 - 09/28/2023
 - 10/11/2023 Fuck. This sucks
 - 10/22/2023
+- 10/27/2023. Done
 
 ## History of C
 
